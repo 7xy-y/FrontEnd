@@ -15,7 +15,7 @@ const columns = [
         key: 'course_name',
     },
     {
-        title: '教师姓名1',
+        title: '教师姓名',
         key: 'teacher_name',
         dataIndex: 'teacher_name',
     },
