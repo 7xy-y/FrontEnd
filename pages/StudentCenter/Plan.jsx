@@ -74,6 +74,8 @@ const Plan = (props) => {
 }
 
 
+//sda
+
 const chooseCourse = (cid, stuid) => {
   axios.get('http://127.0.0.1:8000/api/choosePlan?stu='+stuid + '&cid='+cid).then(response => {
     console.log('choosePlan: ', response.data);
